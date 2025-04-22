@@ -23,11 +23,30 @@ Each user can log in with a unique username (no password required) and manage th
 
 ## 🛠 How to Run
 
-```bash
+## 1. Development Mode (for local development)
+- Run frontend and backend separately for live-reloading and debugging:
+# Install dependencies
 npm install
-npm run build
+
+# Run Vite frontend dev server (usually on port 5173)
+npm run dev
+
+# In a new terminal, run Express backend (usually on port 3000)
 npm start
-```
+
+- Make sure the frontend is configured to proxy API requests (see vite.config.js) to the backend.
+- Open in browser: http://localhost:5173
+
+## 2. Production Mode (for deployment)
+- Build frontend and serve it via Express as static files:
+# Install dependencies
+npm install
+
+# Build the frontend (outputs to /dist)
+npm run build
+
+# Start Express server (serves /dist)
+npm start
 
 Then open in your browser:
 http://localhost:3000
