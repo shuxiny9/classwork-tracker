@@ -1,0 +1,7 @@
+/* Status.css */
+.status {
+  color: red;
+  margin-top: 0.5rem;
+  font-weight: bold;
+  text-align: center;
+}

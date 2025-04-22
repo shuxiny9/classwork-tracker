@@ -1,0 +1,24 @@
+/* ClassworkItem.css */
+.classwork-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.classwork-item__left {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.classwork-item__done {
+  color: #28a745;
+  font-weight: bold;
+}
+
+.classwork-item__edit-form input {
+  padding: 0.3rem;
+  margin-right: 0.3rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}

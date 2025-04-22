@@ -1,0 +1,26 @@
+/* FilterControls.css */
+.filter-controls {
+  margin: 1rem 0;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.filter-button {
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  border: none;
+  background-color: #e9ecef;
+  color: #333;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.filter-button:hover {
+  background-color: #ced4da;
+}
+
+.filter-button--selected {
+  background-color: #007bff;
+  color: white;
+}

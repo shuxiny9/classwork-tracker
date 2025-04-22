@@ -1,0 +1,20 @@
+/* Controls.css */
+.controls {
+  margin: 1rem 0;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.controls button {
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  background-color: #e9ecef;
+  color: #333;
+  font-weight: bold;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+.controls button:hover {
+  background-color: #ced4da;
+}
